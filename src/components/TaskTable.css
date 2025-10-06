@@ -1,0 +1,23 @@
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #1e1e2f; /* dark background */
+  color: #ffffff; /* white text for visibility */
+}
+
+.task-table th, .task-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+  color: #ffffff; /* ensure cells text is white */
+}
+
+.task-table th {
+  background-color: #2a2a40;
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+}

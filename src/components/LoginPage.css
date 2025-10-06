@@ -1,0 +1,78 @@
+/* Full screen light gray background */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f4f6f8; /* soft light gray */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card styling */
+.login-card {
+  background: #ffffff; /* white card for professional look */
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+/* Slight hover scale for professional feel */
+.login-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Title */
+.login-card h2 {
+  color: #333333;
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* Input fields */
+.login-card input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #d1d5db; /* light border */
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Input focus effect */
+.login-card input:focus {
+  border: 1px solid #4c6ef5;
+  box-shadow: 0 0 5px rgba(76, 110, 245, 0.3);
+}
+
+/* Login button */
+.login-card button {
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  background: #4c6ef5; /* professional blue */
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Button hover effect */
+.login-card button:hover {
+  background: #3b5bdb;
+  transform: translateY(-2px);
+}
+
+/* Error message */
+.error {
+  color: #e74c3c;
+  margin-top: 15px;
+  font-size: 14px;
+}
