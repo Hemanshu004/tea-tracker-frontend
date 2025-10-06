@@ -8,11 +8,11 @@ export default function LoginPage({ onLogin }) {
 
   const handleLogin = () => {
     const allowedUsers = [
-      { username: "Hemanshu", password: "1234", role: "user" },
-      { username: "Shailendra", password: "1234", role: "user" },
-      { username: "Nirmal", password: "1234", role: "user" },
-      { username: "Roommate4", password: "1234", role: "user" },
-      { username: "admin", password: "admin123", role: "admin" },
+      { username: "Hemanshu", password: "HitM@c15156", role: "user" },
+      { username: "Shailendra", password: "XLR8@04", role: "user" },
+      { username: "Nirmal", password: "Nirm@l", role: "user" },
+      { username: "Roommate4", password: "Subhash@07", role: "user" },
+      { username: "admin", password: "HitM@c15156", role: "admin" },
     ];
 
     const user = allowedUsers.find(
