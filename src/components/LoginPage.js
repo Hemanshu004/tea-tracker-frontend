@@ -11,7 +11,7 @@ export default function LoginPage({ onLogin }) {
       { username: "Hemanshu", password: "HitM@c15156", role: "user" },
       { username: "Shailendra", password: "XLR8@04", role: "user" },
       { username: "Nirmal", password: "Nirm@l", role: "user" },
-      { username: "Roommate4", password: "Subhash@07", role: "user" },
+      { username: "Subhash", password: "Subhash@07", role: "user" },
       { username: "admin", password: "HitM@c15156", role: "admin" },
     ];
 
